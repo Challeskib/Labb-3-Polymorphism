@@ -7,16 +7,14 @@ namespace Labb_3___Polymorphism
         static void Main(string[] args)
         {
 
-            Geometry objekt;
+            Geometry Circle = new Circle();
+            Console.WriteLine(Circle.Area());
 
-            objekt = new Circle();
-            Console.WriteLine(objekt.Area());
+            Geometry Square = new Square();
+            Console.WriteLine(Square.Area());
 
-            objekt = new Square();
-            Console.WriteLine(objekt.Area());
-
-            objekt = new Rectangle();
-            Console.WriteLine(objekt.Area());
+            Geometry Rectangle = new Rectangle();
+            Console.WriteLine(Rectangle.Area());
 
         }
     }
