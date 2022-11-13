@@ -16,7 +16,7 @@ namespace Labb_3___Polymorphism
         public override double Area()
         {
 
-            return Length*Length;
+            return Length * Length;
         }
 
 
